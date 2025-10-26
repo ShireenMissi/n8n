@@ -185,7 +185,7 @@ describe('Affinity > GenericFunctions', () => {
 		});
 
 		it('should map organization to organizatitons', () => {
-			expect(mapResource('organization')).toBe('organizatitons');
+            expect(mapResource('organization')).toBe('organizations');
 		});
 
 		it('should map list_entry to list-entries', () => {
